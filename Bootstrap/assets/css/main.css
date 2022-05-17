@@ -1,0 +1,135 @@
+
+/*
+▄▄   ▄▄ ▄▄▄▄▄▄▄ ▄▄    ▄ ▄▄▄▄▄▄   ▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄   ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄▄▄▄  ▄▄▄▄▄▄▄ 
+█  █ █  █       █  █  █ █   ▄  █ █   █       █  █ █  █       █  █       █  █ █  █   ▄  █ █       █      █      ██       █
+█  █▄█  █    ▄▄▄█   █▄█ █  █ █ █ █   █   ▄   █  █ █  █    ▄▄▄█  █    ▄▄▄█  █ █  █  █ █ █ █▄     ▄█  ▄   █  ▄    █   ▄   █
+█       █   █▄▄▄█       █   █▄▄█▄█   █  █ █  █  █▄█  █   █▄▄▄   █   █▄▄▄█  █▄█  █   █▄▄█▄  █   █ █ █▄█  █ █ █   █  █ █  █
+█   ▄   █    ▄▄▄█  ▄    █    ▄▄  █   █  █▄█  █       █    ▄▄▄█  █    ▄▄▄█       █    ▄▄  █ █   █ █      █ █▄█   █  █▄█  █
+█  █ █  █   █▄▄▄█ █ █   █   █  █ █   █      ██       █   █▄▄▄   █   █   █       █   █  █ █ █   █ █  ▄   █       █       █
+█▄▄█ █▄▄█▄▄▄▄▄▄▄█▄█  █▄▄█▄▄▄█  █▄█▄▄▄█▄▄▄▄██▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█  █▄▄▄█   █▄▄▄▄▄▄▄█▄▄▄█  █▄█ █▄▄▄█ █▄█ █▄▄█▄▄▄▄▄▄██▄▄▄▄▄▄▄█
+
+*/
+
+/* START - Configurações Gerais*/
+
+h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* END - Configurações Gerais*/
+
+
+/* START - Header */
+
+nav {
+    background-color: #5C3380;
+    height: 60px;
+    box-shadow: #212529;
+    padding-top: 5px;
+}
+
+#bootstrap-icon {
+    width: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+    color: white;
+}
+
+#btn-start {
+    text-decoration: none;
+    color: yellow;
+    border: solid 1px yellow;
+    padding: 5px;
+}
+
+/* END - Header */
+
+
+/* START - Banner */
+
+.banner {
+    padding: 100px 100px;
+}
+
+#bootstrap-stack {
+    width: 550px;
+}
+
+.banner-text h1 {
+    font-size: 64px;
+    color: #8341B8;
+    margin-bottom: 30px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #212529;
+}
+
+.btn-purple {
+    color: #8341B8;
+    font-size: 24px;
+    border: 1px solid #8341B8;
+    text-decoration: none;
+    padding: 12px 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.btn-grey {
+    color: #717A83;
+    font-size: 24px;
+    border: 1px solid #717A83;
+    text-decoration: none;
+    padding: 12px 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+/* END - Banner */
+
+
+/* START - Services */
+
+.services {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.services-col {
+    background-color: #F8F9FA;
+    margin: 10px;
+    padding: 50px;
+}
+
+/* END - Services */
+
+/* START - Bootstrap Hero */
+
+.boostrap-hero {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.btn-blue {
+    color: #0072FF;
+    font-size: 16px;
+    border: 1px solid #0072FF;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* END - Bootstrap Hero */
