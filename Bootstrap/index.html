@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <title>Bootstrap</title>
     <link rel="shortcut icon" href="assets/icons/favicon/favicon.ico" type="image/x-icon" />
 </head>
 <body>
     <nav class="container-fluid">
+      <div class="row d-flex flex-column">
         <div class="navbar col-sm justify-content-start align-items-center">
-            <img id="bootstrap-icon" src="assets/images/bootstrap-logo-white.svg" alt="">
-            <ul>
-                <li>Início</li>
-                <li>Documentação</li>
-                <li>Exemplos</li>
-            </ul>
+          <img id="bootstrap-icon" src="assets/images/bootstrap-logo-white.svg" alt="">
+          <ul>
+              <li>Início</li>
+              <li>Documentação</li>
+              <li>Exemplos</li>
+              <li>Github</li>
+          </ul>
         </div>
+        <div class="navbar col-6">
+          
+        </div>
+      </div>
     </nav>
 
     <!-- BANNER -->
@@ -106,43 +115,9 @@
     </div>
 
     <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-light text-center text-white">
   <!-- Grid container -->
   <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
     <!-- Section: Form -->
     <section class="">
       <form action="">
@@ -151,7 +126,7 @@
           <!--Grid column-->
           <div class="col-auto">
             <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
+              <strong>Inscreva-se em nossa NewsLetter</strong>
             </p>
           </div>
           <!--Grid column-->
@@ -169,8 +144,8 @@
           <!--Grid column-->
           <div class="col-auto">
             <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Subscribe
+            <button type="submit" class="btn btn-form mb-4">
+              Me inscrever
             </button>
           </div>
           <!--Grid column-->
@@ -182,10 +157,10 @@
 
     <!-- Section: Text -->
     <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      <p id="text-footer">
+        Esse site é apenas um projeto para colocar em prática o Bootstrap que venho estudando
+        foi usado como referência para o layout dos sites originais do bootstrap EN e PTBR
+        apenas para forma de demonstração.
       </p>
     </section>
     <!-- Section: Text -->
@@ -196,20 +171,20 @@
       <div class="row">
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Navegação</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="link-footer">Home</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="link-footer">Sobre nós</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="link-footer">Documentação</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="link-footer">Exemplos</a>
             </li>
           </ul>
         </div>
@@ -221,16 +196,16 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="link-footer">Link Projetos</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="link-footer">Link Exemplos</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="link-footer">Link Teste</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="link-footer">Link Redes</a>
             </li>
           </ul>
         </div>
@@ -238,20 +213,20 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Redes sociais</h5>
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">Link 1</a>
+              <a href="#!" class="link-footer">Linkedin</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 2</a>
+              <a href="#!" class="link-footer">Github</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 3</a>
+              <a href="#!" class="link-footer">Facebook</a>
             </li>
             <li>
-              <a href="#!" class="text-white">Link 4</a>
+              <a href="#!" class="link-footer">Twitter</a>
             </li>
           </ul>
         </div>
@@ -259,22 +234,9 @@
 
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
+         <img class="logo-footer" src="assets/images/bootstrap-icon.png" alt="">
+          
         </div>
         <!--Grid column-->
       </div>
@@ -285,9 +247,9 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="Copyright text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="Copyright link-footer" href="https://mdbootstrap.com/">moon.digital</a>
   </div>
   <!-- Copyright -->
 </footer>

@@ -12,6 +12,8 @@
 
 /* START - Configurações Gerais*/
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
 h1, p, ul, li {
     margin: 0;
     padding: 0;
@@ -133,3 +135,43 @@ nav ul li {
 }
 
 /* END - Bootstrap Hero */
+
+
+/* START - Footer */
+
+footer p,
+footer h5,
+footer ul li a,
+footer ul li,
+.Copyright {
+    color: #202529;
+    text-align: left;
+}
+
+.Copyright {
+    color: #9100FF;
+}
+
+footer h5 {
+    color: #9100FF;
+}
+
+#text-footer {
+    text-align: center;
+}
+
+.link-footer {
+    text-decoration: None;
+    text-align: left;
+}
+
+.btn-form {
+    background-color: #9100FF;
+    color: white;
+}
+
+.logo-footer {
+    width: 150px;
+}
+
+/* END - Footer */
