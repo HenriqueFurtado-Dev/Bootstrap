@@ -1,0 +1,40 @@
+/* 
+Anotações do Bootstrap 
+
+
+SEÇÃO
+    container = boxed
+    container-fluid = full width
+    row = linha
+    col = coluna
+
+Colocar antes da row
+
+Col
+    sm = small device
+    md = medium device
+    lg = large device 
+        Ex: col-sm ("Ira fazer o breakpoint apenas no celular")
+
+
+Tipografia 
+    text-left
+    text-right
+    text-center
+    usar h1, h2, h3 como class
+
+
+Botão 
+    btn
+    btn-primary
+    btn-secondary
+    btn-dark
+    btn-outline-primary
+    btn-block
+    btn-group (dentro de uma classe)
+
+Tooltip
+    
+
+*/
+
